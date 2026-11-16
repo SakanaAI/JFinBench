@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.env
+# generated artifacts that contain exam text
+results/
+construction/work/
+construction/data/
+construction/review/
+construction/sources/**/*.pdf
+eval/with_tools/tasks/
+eval/with_tools/jobs/
+eval/with_tools/tasks_mini_swe/
+data/

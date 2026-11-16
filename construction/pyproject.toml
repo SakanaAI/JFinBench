@@ -1,0 +1,11 @@
+[project]
+name = "jfinbench-construction"
+version = "0.1.0"
+description = "Human-in-the-loop agentic construction pipeline of JFinBench"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.0",
+    "pillow>=10.0",
+    "pymupdf==2.1",
+    "truststore>=0.9",
+]
